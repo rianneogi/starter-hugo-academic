@@ -6,7 +6,7 @@ title: 'On the Parameterized Complexity of Deletion to H-free Strong Components'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - MS Ramanujan
+  - M S Ramanujan
   - Saket Saurabh
   - Roohani Sharma
 
@@ -58,14 +58,15 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+# external_link: 'http://www.math.uwaterloo.ca/~rneogi/publication/hscc_mfcs/HSCC_MFCS.pdf'
+url_pdf: 'http://www.math.uwaterloo.ca/~rneogi/publication/hscc_mfcs/HSCC_MFCS.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'http://www.math.uwaterloo.ca/~rneogi/Slides/HSCC_MFCS_slides.pdf'
 url_source: ''
-url_video: ''
+# url_video: 'https://www.youtube.com/watch?v=8l8HmUPVoK4'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -90,7 +91,7 @@ url_video: ''
 # slides: example
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
@@ -98,4 +99,4 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the _Slides_ button to check out the example.
 {{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->

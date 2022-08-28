@@ -28,8 +28,8 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: TCS
-publication_short: TCS
+publication: TCS 2019
+publication_short: TCS 2019
 
 abstract: A graph is said to be a König graph if the size of its maximum matching is equal to the size of its minimum vertex cover. The König Edge Deletion problem asks if in a given graph there exists a set of at most k edges whose deletion results in a König graph. While the vertex version of the problem (König vertex deletion) has been shown to be fixed-parameter tractable more than a decade ago, the fixed-parameter-tractability of the König Edge Deletion problem has been open since then, and has been conjectured to be W[1]-hard in several papers. In this paper, we settle the conjecture by proving it W[1]-hard. We prove that a variant of this problem, where we are given a graph G and a maximum matching M and we want a k-sized König edge deletion set that is disjoint from M, is fixed-parameter-tractable.
 
@@ -46,7 +46,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+# external_link: 'http://www.math.uwaterloo.ca/~rneogi/publication/konig_tcs/konig_TCS.pdf'
+url_pdf: 'http://www.math.uwaterloo.ca/~rneogi/publication/konig_tcs/konig_TCS.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

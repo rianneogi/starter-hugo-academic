@@ -10,7 +10,7 @@ headless: true
 weight: 90
 
 title: Publications
-subtitle: ''
+subtitle: '(in chronological order)'
 
 content:
   # Filter on criteria

@@ -26,7 +26,8 @@
 
 <div class="view-list view-list-item">
   <i class="{{$icon_pack}} {{$icon}} pub-icon" aria-hidden="true"></i>
-  <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+  <!-- <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a> -->
+  <a href="{{ $item.Params.url_pdf}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
 
   {{ if eq $item.Type "event" }}
   <div class="article-metadata">
@@ -45,11 +46,17 @@
     {{ partial "page_metadata_authors" $item }}
   </div>
   <div class="article-metadata">
-  {{ if $item.Params.publication_short }}
-    <b>{{- $item.Params.publication_short | markdownify -}}</b>
-  {{ else if $item.Params.publication }}
-    <b>{{- $item.Params.publication | markdownify -}}</b>
-  {{ end }}
+    {{ if $item.Params.publication_extra }}
+    {{ if $item.Params.publication_short }}
+      <b>{{- $item.Params.publication_short | markdownify -}}</b>,&nbsp{{- $item.Params.publication_extra | markdownify -}}
+    {{ else if $item.Params.publication }}
+      <b>{{- $item.Params.publication | markdownify -}}</b>, {{- $item.Params.publication_extra | markdownify -}}
+    {{ end }}
+{{ else if $item.Params.publication_short }}
+  <b>{{- $item.Params.publication_short | markdownify -}}</b>
+{{ else if $item.Params.publication }}
+  <b>{{- $item.Params.publication | markdownify -}}</b>
+{{ end }}
   </div>
   {{ end }}
 
