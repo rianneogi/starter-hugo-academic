@@ -41,24 +41,26 @@
   </div>
   {{ end }}
 
-  {{ if and $show_authors $item.Params.authors }}
+  {{ if and $show_authors $item.Params.authors (not $item.Params.hide_authors) }}
   <div class="article-metadata">
     {{ partial "page_metadata_authors" $item }}
   </div>
+  {{ end }}
   <div class="article-metadata">
     {{ if $item.Params.publication_extra }}
-    {{ if $item.Params.publication_short }}
-      <b>{{- $item.Params.publication_short | markdownify -}}</b>,&nbsp{{- $item.Params.publication_extra | markdownify -}}
+      {{ if $item.Params.publication_short }}
+        <b>{{- $item.Params.publication_short | markdownify -}}</b>,&nbsp{{- $item.Params.publication_extra | markdownify -}}
+      {{ else if $item.Params.publication }}
+        <b>{{- $item.Params.publication | markdownify -}}</b>,&nbsp{{- $item.Params.publication_extra | markdownify -}}
+      {{ else }}
+        {{- $item.Params.publication_extra | markdownify -}}
+      {{ end }}
+    {{ else if $item.Params.publication_short }}
+      <b>{{- $item.Params.publication_short | markdownify -}}</b>
     {{ else if $item.Params.publication }}
-      <b>{{- $item.Params.publication | markdownify -}}</b>, {{- $item.Params.publication_extra | markdownify -}}
+      <b>{{- $item.Params.publication | markdownify -}}</b>
     {{ end }}
-{{ else if $item.Params.publication_short }}
-  <b>{{- $item.Params.publication_short | markdownify -}}</b>
-{{ else if $item.Params.publication }}
-  <b>{{- $item.Params.publication | markdownify -}}</b>
-{{ end }}
   </div>
-  {{ end }}
 
   {{ if $has_attachments }}
   <div class="btn-links">

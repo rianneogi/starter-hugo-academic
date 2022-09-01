@@ -7,7 +7,7 @@ cms_exclude: true
 #   2 = Compact
 #   3 = Card
 #   4 = Citation
-view: community/list_modified
+view: community/citation_modified
 # columns: '2'
 
 # Optional header image (relative to `static/media/` folder).
