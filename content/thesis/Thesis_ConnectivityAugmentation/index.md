@@ -4,8 +4,8 @@ title: 'Decomposition-based methods for Connectivity Augmentation Problems'
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
-authors:
-  - admin
+# authors:
+  # - admin
 
 # # Author notes (optional)
 # author_notes:
@@ -25,8 +25,9 @@ doi: ''
 publication_types: ['7']
 
 # Publication name and optional abbreviated publication name.
-publication: 'Masters Thesis'
-publication_short: 'Masters Thesis'
+publication: ''
+publication_short: ''
+publication_extra: Masters Thesis
 
 # abstract: A graph is said to be a König graph if the size of its maximum matching is equal to the size of its minimum vertex cover. The König Edge Deletion problem asks if in a given graph there exists a set of at most k edges whose deletion results in a König graph. While the vertex version of the problem (König vertex deletion) has been shown to be fixed-parameter tractable more than a decade ago, the fixed-parameter-tractability of the König Edge Deletion problem has been open since then, and has been conjectured to be W[1]-hard in several papers. In this paper, we settle the conjecture by proving it W[1]-hard. We prove that a variant of this problem, where we are given a graph G and a maximum matching M and we want a k-sized König edge deletion set that is disjoint from M, is fixed-parameter-tractable.
 

@@ -9,24 +9,30 @@
   <!-- <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>. -->
   <a href="{{ $item.Params.url_pdf}}">{{ $item.Title }}</a>.
   <br>
-  <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" $item }}
-  </span>
-  <br>  
+
+  {{ if $item.Params.authors }}
+    <span class="article-metadata li-cite-author">
+      {{ partial "page_metadata_authors" $item }}
+    </span>
+    <br>  
+  {{ end }}
+
   <span class="article-metadata li-cite-author">
   {{ if $item.Params.publication_extra }}
       {{ if $item.Params.publication_short }}
-	      <b>{{- $item.Params.publication_short | markdownify -}}</b><br><small>{{- $item.Params.publication_extra | markdownify -}}</small>
+	      <b>{{- $item.Params.publication_short | markdownify -}}</b><br><small>{{- $item.Params.publication_extra | markdownify -}}</small><br>
 	    {{ else if $item.Params.publication }}
-	      <b>{{- $item.Params.publication | markdownify -}}</b>, {{- $item.Params.publication_extra | markdownify -}}
+	      <b>{{- $item.Params.publication | markdownify -}}</b>, {{- $item.Params.publication_extra | markdownify -}}<br>
+      {{ else }}
+        {{- $item.Params.publication_extra | markdownify -}}<br>
 	    {{ end }}
   {{ else if $item.Params.publication_short }}
-	  <b>{{- $item.Params.publication_short | markdownify -}}</b>
+	  <b>{{- $item.Params.publication_short | markdownify -}}</b><br>
 	{{ else if $item.Params.publication }}
-	  <b>{{- $item.Params.publication | markdownify -}}</b>
+	  <b>{{- $item.Params.publication | markdownify -}}</b><br>
 	{{ end }}
   </span>
-  <br>
+  
   <!-- {{ if $item.Params.publication_short }}
     <it>{{- $item.Params.publication_short | markdownify -}}</it>
   {{ else if $item.Params.publication }}
