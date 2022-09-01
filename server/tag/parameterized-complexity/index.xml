@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parameterized Complexity | Rian Neogi</title>
+    <link>http://www.math.uwaterloo.ca/~rneogi/tag/parameterized-complexity/</link>
+      <atom:link href="http://www.math.uwaterloo.ca/~rneogi/tag/parameterized-complexity/index.xml" rel="self" type="application/rss+xml" />
+    <description>Parameterized Complexity</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.math.uwaterloo.ca/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_512x512_fill_lanczos_center_3.png</url>
+      <title>Parameterized Complexity</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/tag/parameterized-complexity/</link>
+    </image>
+    
+    <item>
+      <title>Recognizing k-Clique Extendible Orderings</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/publication/kceo_algorithmica/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/publication/kceo_algorithmica/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the Parameterized Complexity of Deletion to H-free Strong Components</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/publication/hscc_mfcs/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/publication/hscc_mfcs/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tractability of König edge deletion problems</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/publication/konig_tcs/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/publication/konig_tcs/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

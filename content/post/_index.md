@@ -1,5 +1,6 @@
-<!-- ---
+---
 title: Posts
+draft: true
 active: false
 cms_exclude: true
 
@@ -13,4 +14,4 @@ view: 2
 header:
   caption: ''
   image: ''
---- -->
+---

@@ -15,7 +15,7 @@ subtitle:
 
 content:
   # Automatically link email and phone or display as text?
-  autolink: true
+  autolink: false
 
   # Email form provider
   # form:
@@ -27,7 +27,7 @@ content:
   #     captcha: false
 
   # Contact details (edit or remove options as required)
-  email: <first-name>(dot)<last-name>@uwaterloo.ca
+  email: 'Email: <first-name>(dot)<last-name>@uwaterloo.ca'
   # phone: 888 888 88 88
   address: 
     # street: 'Mathematics Building, Office: MC 5031'

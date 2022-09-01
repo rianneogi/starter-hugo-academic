@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rian Neogi</title>
+    <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/</link>
+      <atom:link href="http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rian Neogi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.math.uwaterloo.ca/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_512x512_fill_lanczos_center_3.png</url>
+      <title>Rian Neogi</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/</link>
+    </image>
+    
+    <item>
+      <title>Discrepancy</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-w2017-discrepancy/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-w2017-discrepancy/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 13, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Integer-making theorems&amp;rdquo; (1981) &lt;em&gt;by Jozsef Beck and Tibor Fiala&lt;/em&gt;  &lt;br&gt;&lt;br&gt;Beck-Fiala Theorem can also be found in Chapter 4, &lt;a href=&#34;http://www.springer.com/us/book/9783540655282&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Geometric Discrepancy&lt;/a&gt; &lt;em&gt;by Jiri Matousek&lt;/em&gt;.&lt;/td&gt;
+&lt;td&gt;Kanstantsin Pashkovich&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 20, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Roths estimate of the discrepancy of integer sequences is nearly sharp&amp;rdquo; (1981) &lt;em&gt;by Jozsef Beck&lt;/em&gt;  &lt;br&gt;&lt;br&gt;Partial Coloring Lemma can also be found in Chapter 4, &lt;a href=&#34;http://www.springer.com/us/book/9783540655282&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Geometric Discrepancy&lt;/a&gt; &lt;em&gt;by Jiri Matousek&lt;/em&gt;.&lt;/td&gt;
+&lt;td&gt;Sanchit Kalhan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 27, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Six standard deviations suffice&amp;rdquo; (1985) &lt;em&gt;by Joel Spencer&lt;/em&gt;  &lt;br&gt;&lt;br&gt;Entropy Method and Spencer&amp;rsquo;s Theorem can also be found in Chapter 4, &lt;a href=&#34;http://www.springer.com/us/book/9783540655282&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Geometric Discrepancy&lt;/a&gt; &lt;em&gt;by Jiri Matousek&lt;/em&gt;.&lt;/td&gt;
+&lt;td&gt;Sina Rezazadeh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 3, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Constructive algorithms for discrepancy minimization&amp;rdquo; (2010) &lt;em&gt;by Nikhil Bansal&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Julian Romero&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 10, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Constructive discrepancy minimization by walking on the edges&amp;rdquo; (2012) by &lt;em&gt;Shachar Lovett and Raghu Meka&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Ahmad Abdi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 17, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;An algorithm for Komlos conjecture matching Banaszczyk&amp;rsquo;s bound&amp;rdquo; (2016) &lt;em&gt;by Nikhil Bansal, Daniel Dadush, and Shashwat Garg&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Mehdi Karimi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 24, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Constructive Discrepancy Minimization for Convex Sets&amp;rdquo; (2014) &lt;em&gt;by Thomas Rothvoss&lt;/em&gt;  &lt;br&gt;&lt;br&gt;Here is the talk &lt;a href=&#34;http://www.birs.ca/events/2014/5-day-workshops/14w5051/videos/watch/201408071603-Rothvoss.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Constructive Discrepancy Minimization for Convex Sets&lt;/a&gt; &lt;em&gt;by Thomas Rothvoss&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Nathan Lindzey&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 3, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;The entropy rounding method in approximation algorithms&amp;rdquo; (2012) &lt;em&gt;by Thomas Rothvoss&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Andre Linhares&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 10, 2017&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;This Friday we have no talks.&lt;/strong&gt; However if you want to watch a talk on Discrepancy, here is a recent talk by Nikhil Bansal &lt;a href=&#34;https://youtu.be/u_tkqqY7Hks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Discrepancy beyond Partial Colorings&amp;rdquo;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ramanujan Graphs and Interlacing Families</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2017-interlacing/</link>
+      <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2017-interlacing/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;th&gt;Info&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 17, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Interlacing Families 1: Bipartite Ramanujan Graphs of All Degrees&amp;rdquo; (2013) &lt;em&gt;by Adam Marcus, Daniel Spielman, and Nikhil Srivastava&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Maxwell Levit&lt;/td&gt;
+&lt;td&gt;Ramanujan Graphs, 2-lifts, spectral expansions and graph expansions will be defined. We will see Theorems of Heilmann and Lieb and Theorems of Godsil on matching polynomials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 24, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Interlacing Families 1: Bipartite Ramanujan Graphs of All Degrees&amp;rdquo; (2013) &lt;em&gt;by Adam Marcus, Daniel Spielman, and Nikhil Srivastava&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Leanne Stuive&lt;/td&gt;
+&lt;td&gt;We will see core results on interlacing polynomials and stable polynomials&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 31, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Twice-Ramanujan Sparsifies&amp;rdquo; (2014) &lt;em&gt;by Joshua Batson, Daniel Spielman, and Nikhil Srivastava&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Mehdi Karimi&lt;/td&gt;
+&lt;td&gt;(1) Barrier Function argument talk: &lt;a href=&#34;https://youtu.be/r0SGCR7z94s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Sparsification 2: Barrier Functions and Rank-one Updates&lt;/a&gt; &lt;em&gt;by Nikhil Srivastava&lt;/em&gt; (2) Two further talks by Nikhil Srivastava: &lt;a href=&#34;https://youtu.be/qXRs8-LouSQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Sparsification 1: Sparsification via Effective Resistances&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/YJgCXFj6A0s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graph Sparsification 3: Interlacing Polynomials and Ramanujan Graphs of Every Degree&lt;/a&gt; (3) Blog Posts of Nikhil Srivastava: for example, &lt;a href=&#34;https://windowsontheory.org/2013/07/11/discrepancy-graphs-and-the-kadison-singer-conjecture-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discrepancy, Graphs and the Kadison-Singer Problem&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr 7, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Interlacing Families 2: Mixed Characteristic Polynomials and the Kadison-Singer Problem&amp;rdquo; (2013) &lt;em&gt;by Adam Marcus, Daniel Spielman, and Nikhil Srivastava&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;David Wagner&lt;/td&gt;
+&lt;td&gt;An overview of results and applications&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr 14, 2017&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Good Friday. This Friday we have no talks.&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr 21, 2017&lt;/td&gt;
+&lt;td&gt;Question Session. We discuss questions related to the topics of this term&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Travelling Salesman</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2017-tsp/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2017-tsp/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;th&gt;Info&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;May 5, 2017&lt;/td&gt;
+&lt;td&gt;Classic results and overview of the results from the chosen papers&lt;/td&gt;
+&lt;td&gt;Laura Sanita&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May 15, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Approximating Graphic TSP by Matchings&amp;rdquo; (2011) &lt;em&gt;by Tobias Momke, and Ola Svensson&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Matthew Buckley&lt;/td&gt;
+&lt;td&gt;Here is a talk by Naveen Garg &lt;a href=&#34;https://www.youtube.com/watch?v=LPKHnPeF7aI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Approximating Graphic TSP by Matchings&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May 19, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Shorter Tours by Nicer Ears: 7/5-approximation for graphic TSP, 3/2 for the path version, and 4/3 for two-edge-connected subgraphs&amp;rdquo; (2012) &lt;em&gt;by Andras Sebo, and Jens Vygen&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Justin Toth&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May 26, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;On the metric s-t path Travelling Salesman Problem&amp;rdquo; (2014) &lt;em&gt;by Zhihan Gao&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Andre Linhares&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June 2, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Better s-t-Tours by Gao Trees&amp;rdquo; (2015) &lt;em&gt;by Corinna Gottschalk, and Jens Vygen&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Martin Gross&lt;/td&gt;
+&lt;td&gt;A talk by Jens Vygen, &lt;a href=&#34;https://www.youtube.com/watch?v=kHAd1reeLlA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reassembling trees for the travelling salesman&lt;/a&gt; leads up to the result of Corinna Gottschalk and Jens Vygen. Please note that recently Frans Schalekamp Andras Sebo, Vera Traub, and Anke van Zuylen provided a short &lt;a href=&#34;https://arxiv.org/abs/1703.07170&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;proof&lt;/a&gt; of the key structural result of Corinna Gottschalk and Jens Vygen.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June 9, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;The Salesman&amp;rsquo;s Improved Paths: A 3/2+1/34 Approximation&amp;rdquo; (2016) &lt;em&gt;by Andras Sebo, and Anke van Zuylen&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Andras Sebo&lt;/td&gt;
+&lt;td&gt;The algorithm, the main proof of the analysis and the intuition behind its ingredients will be explained, including the gain of using Gottschalk and Vygen&amp;rsquo;s particular convex combination of spanning trees, and how Schalekamp, Sebo, Traub, and van Zuylen finally managed to use matroid union in &lt;a href=&#34;https://arxiv.org/abs/1703.07170&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Layers and matroids for the travelling salesman&amp;rsquo;s paths&lt;/a&gt; (2017) for a simple algorithmic proof of this particular convex combination.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June 16, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Polynomial-Time Separation of a Superclass of Simple Comb Inequalities&amp;rdquo; (2006) &lt;em&gt;by Lisa Fleischer, Adam Letchford, and Andrea Lodi&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Quincy Lap-Kwan Lam&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June 23, 2017&lt;/td&gt;
+&lt;td&gt;Questions and Discussion Session with Sylvia Boyd and Andras Sebo&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June 30, 2017&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;IPCO Break. This Friday we have no talks&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July 7, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;An O(log n/ log log n)-approximation Algorithm for the Asymmetric Traveling Salesman Problem&amp;rdquo; (2010) &lt;em&gt;by Arash Asadpour, Michel Goemans, Aleksander Madry, Shayan Oveis Gharan, and Amin Saberi&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Akshay Ramachadran&lt;/td&gt;
+&lt;td&gt;Here is a talk by Shayan Oveis &lt;a href=&#34;https://www.youtube.com/watch?v=MopVn3ltnAY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Asymmetric Traveling Salesman Problem&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July 14, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Approximating ATSP by Relaxing Connectivity&amp;rdquo; (2015) &lt;em&gt;by Ola Svensson&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Zhuan Khye Koh&lt;/td&gt;
+&lt;td&gt;Here is a talk by Ola Svensson &lt;a href=&#34;https://www.youtube.com/watch?v=_PSQUQxpziU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Approximating ATSP by Relaxing Connectivity&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July 21, 2017&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;SiGMa break. This Friday we have no talks.&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July 28, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Constant Factor Approximation for ATSP with Two Edge Weights&amp;rdquo; (2015) &lt;em&gt;by Ola Svensson, Jakub Tarnawski, and Laszlo Vegh&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Sharat Ibrahimpur&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Aug 4, 2017&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Effective-Resistance-Reducing Flows, Spectrally Thin Trees, and Asymmetric TSP&amp;rdquo; (2014) &lt;em&gt;by Nima Anari, and Shayan Oveis Gharan&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Akshay Ramachadran and Julian Romero&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;This talk does not assume any previous reading&lt;/em&gt;. Further reading: Nikhil Srivastava&amp;rsquo;s blog post &lt;a href=&#34;https://windowsontheory.org/2013/07/11/discrepancy-graphs-and-the-kadison-singer-conjecture-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discrepancy, Graphs, and the Kadison-Singer Problem&lt;/a&gt;. Please also take a look at the course &lt;a href=&#34;https://homes.cs.washington.edu/~shayan/courses/cse599/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Recent Developments in Approximation Algorithms&lt;/a&gt; by Shayan Oveis Gharan. In Lecture 18 and 19 of this course, the results from the above paper were presented.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stable Polynomials</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-w2018-stable_polynomials/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-w2018-stable_polynomials/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;th&gt;Info&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 10, 2018 (Wed 1pm)&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s10208-004-0136-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Hyperbolic Programs and Their Derivative Relaxation&amp;rdquo;&lt;/a&gt; (2006) &lt;em&gt;by James Renegar&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Leanne Stuive&lt;/td&gt;
+&lt;td&gt;Further reading: Please take a look at the lecture notes for the course &lt;a href=&#34;https://math.berkeley.edu/~nikhil/courses/270/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Geometry of Polynomials in Algorithms, Combinatorics, and Probability&lt;/a&gt; (Lecture 11) taught by Nikhil Srivastava and the lecture notes for the course &lt;a href=&#34;https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-972-algebraic-techniques-and-semidefinite-optimization-spring-2006/lecture-notes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Algebraic Techniques and Semidefinite Optimization&lt;/a&gt; taught by Pablo Parrilo. Here is the thesis of Tor Myklebust &lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.620.9235&amp;amp;rep=rep1&amp;amp;type=pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Geometry of convex sets arising from hyperbolic polynomials&amp;rdquo;&lt;/a&gt;. Here are &lt;a href=&#34;https://math.berkeley.edu/~bernd/branden.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Notes on Hyperbolicity Cones&amp;rdquo;&lt;/a&gt; by Peter Branden&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 12, 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s10208-004-0136-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Hyperbolic Programs and Their Derivative Relaxation&amp;rdquo;&lt;/a&gt; (2006) &lt;em&gt;by James Renegar&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Leanne Stuive&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 19, 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.ams.org/journals/bull/2011-48-01/S0273-0979-2010-01321-5/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Multivariate Stable Polynomials: Theory and Applications&amp;rdquo;&lt;/a&gt; (2011) &lt;em&gt;by David Wagner&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Akshay Ramachadran&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 26, 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.ams.org/journals/bull/2011-48-01/S0273-0979-2010-01321-5/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Multivariate Stable Polynomials: Theory and Applications&amp;rdquo;&lt;/a&gt; (2011) &lt;em&gt;by David Wagner&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Akshay Ramachadran&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 2, 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://cms.math.ca/10.4153/CJM-2001-020-6?abfmt=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Hyperbolic Polynomials and Convex Analysis&amp;rdquo;&lt;/a&gt; (2001) &lt;em&gt;by Heinz Bauschke, Osman Guler, Adrian Lewis, and Hristo Sendov&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Sina Rezazadeh&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 9, 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.jstor.org/stable/4097606?seq=1#page_scan_tab_contents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;The Lax Conjecture is True&amp;rdquo;&lt;/a&gt; (2005) &lt;em&gt;by Adrain Lewis, Pablo Parrilo, and Motakuri Ramana&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Stefan Sremac&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 16, 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/1711.11497&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Exponential Lower Bounds on Spectrahedral Representations of Hyperbolicity Cones&amp;rdquo;&lt;/a&gt; (2017) &lt;em&gt;by Prasad Raghavendra, Nick Ryder, Nikhil Srivastava, and Benjamin Weitz&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Julian Romero&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 23, 2018&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Reading Week. This Friday we have no talks&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 2, 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.jstor.org/stable/10.4169/000298910x523380?seq=1#page_scan_tab_contents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;On Leonid Gurvit&amp;rsquo;s Proof of Permanents&amp;rdquo;&lt;/a&gt; (2010) &lt;em&gt;by Monique Laurent and Alexander Schrijver&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Kanstantsin Pashkovich&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 9, 2018 (MC 5417)&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/logsubmodular2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Maximizing Determinants under Partition Constraints&amp;rdquo;&lt;/a&gt; (2015) &lt;em&gt;by Aleksander Nikolov and Mohit Singh&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Sharat Ibrahimpur&lt;/td&gt;
+&lt;td&gt;Here is the talk &lt;a href=&#34;https://www.youtube.com/watch?v=LmdJygBQj7Y&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Maximizing Sub-determinants and Connections to Permanents and Inequalities on Stable Polynomials&amp;rdquo;&lt;/a&gt; by Mohit Singh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 16, 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://arxiv.org/pdf/1609.07056.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Nash Social Welfare, Matrix Permanent, and Stable Polynomials&amp;rdquo;&lt;/a&gt; &lt;em&gt;by Nima Anari, Shayan Gharan, Amin Saberi, and Mohit Singh&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Justin Toth&lt;/td&gt;
+&lt;td&gt;Here is the talk &lt;a href=&#34;https://www.youtube.com/watch?v=EoniLjTQe_4&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Nash Social Welfare, Matrix Permanent, and Stable Polynomials&amp;rdquo;&lt;/a&gt; by Nima Anari&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 23, 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://nimaanari.com/AO17.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;A Generalization of Permanent Inequalities and Applications in Counting and Optimization&amp;rdquo;&lt;/a&gt; (2017) &lt;em&gt;by Nima Anari and Shayan Oveis Gharan&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Akshay Ramachadran&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 30, 2018&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Good Friday. This Friday we have no talks.&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multiplicative Weight Updates</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2018-mwu/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2018-mwu/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jun 1, 2018&lt;/td&gt;
+&lt;td&gt;Multiplicative Weight Updates as Mirror Descent&lt;/td&gt;
+&lt;td&gt;Julian Romero&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jun 8, 2018&lt;/td&gt;
+&lt;td&gt;Weighted Majority&lt;/td&gt;
+&lt;td&gt;Zhuan Khye Koh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jun 15, 2018&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Randomized Rounding without Solving the Linear Program&amp;rdquo; (1995) &lt;em&gt;by Neal Young&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Justin Toth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jun 22, 2018&lt;/td&gt;
+&lt;td&gt;Packing and Covering LP&amp;rsquo;s&lt;/td&gt;
+&lt;td&gt;Jochen Koenemann&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jun 29, 2018&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;ISMP 2018. This Friday we have no talks.&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jul 6, 2018&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;ISMP 2018. This Friday we have no talks.&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jul 13, 2018&lt;/td&gt;
+&lt;td&gt;Entropy, Information and Other Interpretations&lt;/td&gt;
+&lt;td&gt;Akshay Ramachadran&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jul 20, 2018&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Nearly Linear-Time Approximation Schemes for Mixed Packing/Covering and Facility-Location Linear Programs&amp;rdquo; (2014) &lt;em&gt;by Neal Young&lt;/em&gt; and &amp;ldquo;Near-linear time approximation schemes for some implicit fractional packing problems&amp;rdquo; (2017) &lt;em&gt;by Chandra Chekuri and Kent Quanrud&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Sharat Ibrahimpur&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jul 27, 2018&lt;/td&gt;
+&lt;td&gt;Matrix Multiplicative Weight Updates&lt;/td&gt;
+&lt;td&gt;Sina Rezazadeh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Aug 3, 2018&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Spectral Sparsification and Regret Minimization Beyond Matrix Multiplicative Updates&amp;rdquo; (2015) &lt;em&gt;by Zeyuan Allen-Zhu, Zhenyu Liao, and Lorenzo Orecchia&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Hong Zhou&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clustering</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-f2018-clustering/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-f2018-clustering/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Location&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 12, 2018&lt;/td&gt;
+&lt;td&gt;MC 5479&lt;/td&gt;
+&lt;td&gt;Overview and LP rounding for uncapacitated facility location&lt;/td&gt;
+&lt;td&gt;Chaitanya Swamy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 19, 2018&lt;/td&gt;
+&lt;td&gt;MC 5479&lt;/td&gt;
+&lt;td&gt;Primal dual for facility location, Lagrangian relaxation technique for k-median&lt;/td&gt;
+&lt;td&gt;Hao Sun&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 26, 2018&lt;/td&gt;
+&lt;td&gt;MC 5479&lt;/td&gt;
+&lt;td&gt;Local search for uncapacitated facility location, capacitated facility location, k-median&lt;/td&gt;
+&lt;td&gt;Zishen Qu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 2, 2018&lt;/td&gt;
+&lt;td&gt;MC 5479&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Approximating k-Median via Pseudo-Approximation&amp;rdquo; (2013) &lt;em&gt;by Shi Li and Ola Svensson&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Sharat Ibrahimpur&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 9, 2018&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;MC 5417&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Approximate Clustering without the Approximation&amp;rdquo; (2009) &lt;em&gt;by Maria-Florina Balcan, Avrim Blum and Anupam Gupta&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Thomas Baxter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 16, 2018&lt;/td&gt;
+&lt;td&gt;MC 5479&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Stability Yields a PTAS for k-Median and k-Means Clustering&amp;rdquo; (2010) &lt;em&gt;by Pranjal Awasthi, Avrim Blum and Or Sheffet&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Adam Brown&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 23, 2018&lt;/td&gt;
+&lt;td&gt;MC 5479&lt;/td&gt;
+&lt;td&gt;Local Search for Capacitated Facility Location&lt;/td&gt;
+&lt;td&gt;Akshay Ramachadran&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 30, 2018&lt;/td&gt;
+&lt;td&gt;MC 5479&lt;/td&gt;
+&lt;td&gt;Ordered k-median&lt;/td&gt;
+&lt;td&gt;Sharat Ibrahimpur&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Approximate Graph Coloring</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-w2019-coloring/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-w2019-coloring/</guid>
+      <description>&lt;p&gt;This term our reading group studies approximations for the chromatic number of a graph.
+This topic was suggested by &lt;strong&gt;Ben Moore&lt;/strong&gt;. Thank you Ben for contributing the topic and suggested list of papers!&lt;/p&gt;
+&lt;p&gt;Ben will also give our &lt;em&gt;first talk&lt;/em&gt;, an overview of the area and the first result in Group A, on &lt;strong&gt;January 18th.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The suggested papers are available below. If you would like to present one of the unclaimed papers, or suggest a paper to present, please get in touch with one of the organizers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Group A: Coloring in minor closed classes&lt;/strong&gt; &lt;em&gt;(these papers require some expertise in graph minors theory)&lt;/em&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 18th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://arxiv.org/pdf/1707.03888.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;Additive non-approximability of chromatic number in proper minor-closed classes’&lt;/a&gt; by Dvorak and Kawarabayashi.&lt;/td&gt;
+&lt;td&gt;Ben Moore&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 25th, 2019&lt;/td&gt;
+&lt;td&gt;An additive t+3 approximation of the chromatic number for minor-closed classes that avoid a fixed t-apex graph as a minor.   See Theorem 5 from the work of Dvorak and Kawarabayashi mentioned above.&lt;/td&gt;
+&lt;td&gt;Justin Toth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 1st, 2019&lt;/td&gt;
+&lt;td&gt;A 2-approximation for the chromatic number in minor closed classes. Based on the work of Demaine, Hajiaghayi, and Kawarabayashi in the paper titled &lt;a href=&#34;http://erikdemaine.org/papers/Decomposition_FOCS2005/paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;‘Algorithmic Graph Minor Theory: Decomposition, Approximation, and Coloring’&lt;/a&gt;.&lt;/td&gt;
+&lt;td&gt;Rose McCarty&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Group B: Coloring in general graphs&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 8th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://drops.dagstuhl.de/opus/volltexte/2014/4479/pdf/37.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;‘Coloring 3-colorable graphs with o(n^1⁄5) colors’&lt;/a&gt; by Kawarabayashi and Thorup. First talk covers combinatorial techniques used in this paper.&lt;/td&gt;
+&lt;td&gt;Thomas Kelly&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 15th, 2019&lt;/td&gt;
+&lt;td&gt;Second talk (on the above paper) covers the semi-definite programming approaches.&lt;/td&gt;
+&lt;td&gt;Sharat Ibrahimpur&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar  8th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.1137/S0895480100376794&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;‘On the hardness of 4-coloring a 3-colorable graph’&lt;/a&gt; by Guruswami and Khanna, and &lt;a href=&#34;https://doi.org/10.1007/s004930070013&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;‘On the hardness of approximating the chromatic number’&lt;/a&gt; by Khanna, Linial, and Safra.&lt;/td&gt;
+&lt;td&gt;Akshay Ramachandran&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Group C: Other interesting results on coloring.&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 1st, 2019&lt;/td&gt;
+&lt;td&gt;Courcelle&amp;rsquo;s Theorem: Fixed parameter linear problems with respect to tree-width. From &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/089054019090043H&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;The monadic second-order logic of graphs. I. Recognizable sets of finite graphs&amp;rsquo;&lt;/a&gt; by Bruno Courcelle&lt;/td&gt;
+&lt;td&gt;Rose McCarty&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 15th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://drops.dagstuhl.de/opus/volltexte/2018/9019/pdf/LIPIcs-ICALP-2018-15.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;NP-Hardness of Coloring 2-Colorable Hypergraphs with Poly-Logarithmically Many Colors&amp;rsquo;&lt;/a&gt; by Amey Bhangale.&lt;/td&gt;
+&lt;td&gt;Joshua Nevin&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 22nd, 2019&lt;/td&gt;
+&lt;td&gt;Structural Rroperties of the Glauber Dynamic Graph&lt;/td&gt;
+&lt;td&gt;Ben Moore&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 29th, 2019&lt;/td&gt;
+&lt;td&gt;Using Lasserre Hierarchy for Graph Coloring&lt;/td&gt;
+&lt;td&gt;Julian Romero&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr 5th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;&lt;em&gt;Choose from list below, or suggest&lt;/em&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;&lt;em&gt;To Be Claimed&lt;/em&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &amp;lsquo;NP-Hardness of Coloring 2-Colorable Hypergraphs with Poly-Logarithmically Many Colors&amp;rsquo; by Amey Bhangale.
+&lt;a href=&#34;http://drops.dagstuhl.de/opus/volltexte/2018/9019/pdf/LIPIcs-ICALP-2018-15.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://drops.dagstuhl.de/opus/volltexte/2018/9019/pdf/LIPIcs-ICALP-2018-15.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &amp;lsquo;Linear Degree Extractors and the Inapproximability of Max Clique and Chromatic Number&amp;rsquo; by David Zuckerman.
+&lt;a href=&#34;http://www.theoryofcomputing.org/articles/v003a006/v003a006.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.theoryofcomputing.org/articles/v003a006/v003a006.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &amp;lsquo;Rapid mixing of Glauber dynamics for colorings below Vigoda’s 11/6 threshold&amp;rsquo; by Delcourt, Perarnau, and Postle.
+&lt;a href=&#34;https://arxiv.org/pdf/1804.04025.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/1804.04025.pdf&lt;/a&gt;
+(This result was presented by Michelle Delcourt at the Tutte Colloquium on 14th September 2018)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &amp;lsquo;Polynomial bounds for centered colorings on proper minor-closed graph classes&amp;rsquo; by Pilipczuk and Siebertz.
+&lt;a href=&#34;https://arxiv.org/abs/1807.03683&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/1807.03683&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stable Matching</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2019-stable-matching/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2019-stable-matching/</guid>
+      <description>&lt;p&gt;This term our reading group studies Matching under Preferences.
+In the words of &lt;a href=&#34;http://lemon.cs.elte.hu/egres/open/Stable_matchings_and_kernels&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Egres Open&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;From the viewpoint of combinatorial optimization, stable matching problems are interesting because there are many beautiful algorithmic and structural results, yet these do not seem to fit into the usual framework of flows and matchings. The field is quite active and generalizations have been achieved in several directions, but a unified understanding of the results is still missing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The suggested papers are available below the schedule. If you would like to present one of the unclaimed papers, or suggest a paper to present, please get in touch with one of the organizers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Schedule&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;May 10th, 2019&lt;/td&gt;
+&lt;td&gt;Overview Talk &lt;strong&gt;One Time Room Change:  MC 5417&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Justin Toth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May 17th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://bolyai.cs.elte.hu/egres/tr/egres-01-01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Fixed-Point Approach to Stable Matchings and Some Applications&lt;/a&gt; by Tamas Fleiner.&lt;/td&gt;
+&lt;td&gt;Cedric Koh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May 24th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;&lt;em&gt;No Talks on account of &lt;a href=&#34;http://umich.edu/~ipco2019conf/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPCO 2019&lt;/a&gt;&lt;/em&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;&lt;em&gt;IPCO&lt;/em&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May 31st, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://bolyai.cs.elte.hu/egres/tr/egres-01-01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Fixed-Point Approach to Stable Matchings and Some Applications&lt;/a&gt; by Tamas Fleiner. &lt;strong&gt;Independent of previous talk&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Akshay Ramachandran&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jun 07th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://epubs.siam.org/doi/pdf/10.1137/06067328X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Popular Matchings&lt;/a&gt; by David Abraham, Robert Irving, Telikepalli Kavitha, and Kurt Melhorn&lt;/td&gt;
+&lt;td&gt;Lily Wang&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jun 14th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://epubs.siam.org/doi/pdf/10.1137/1.9781611974782.151&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Popularity, Mixed Matchings, and Self-Duality&lt;/a&gt; by Chien-Chung Huang and Telikepalli Kavitha.&lt;/td&gt;
+&lt;td&gt;Adam Brown&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jun 21st, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://link.springer.com/chapter/10.1007%2F978-3-642-22006-7_56&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Popular Matchings in the Stable Marriage Problem&lt;/a&gt; by Chien-Chung Huang and Telikepalli Kavitha.&lt;/td&gt;
+&lt;td&gt;Ishan Bansal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jun 28th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s00453-009-9371-7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Better and Simpler Approximation Algorithms for the Stable Marriage Problem&lt;/a&gt; by Zoltan Kiraly.&lt;/td&gt;
+&lt;td&gt;Madison Van Dyk&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jul 05th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://arxiv.org/pdf/1904.05974.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quasi-Popular Matchings, Optimality, and Extended Formulations&lt;/a&gt; by Yuri Faenza and Telikepalli Kavitha.&lt;/td&gt;
+&lt;td&gt;Kanstantsin Pashkovich&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jul 12th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://epubs.siam.org/doi/10.1137/1.9781611975482.175&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A (1 + 1/e)-Approximation Algorithm for Maximum Stable Matching with One-Sided Ties and Incomplete Lists&lt;/a&gt; by Chi-Kit Lam and Gregory Plaxton.&lt;/td&gt;
+&lt;td&gt;Madison Van Dyk&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jul 19th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-642-16926-7_7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;On Stable Matchings and Flows&lt;/a&gt; by Tamas Fleiner.&lt;/td&gt;
+&lt;td&gt;Sharat Ibrahimpur&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jul 26th, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://arxiv.org/pdf/1309.3701.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;New and Simple Algorithms for Stable Flow Problems&lt;/a&gt; by Agnes Cseh and Jannik Matuschke.&lt;/td&gt;
+&lt;td&gt;Justin Toth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Aug 02nd, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://arxiv.org/pdf/1407.1853.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stable Marriage with General Preferences&lt;/a&gt; by Linda Farczadi, Konstantinos Georgiou, and Jochen Koenemann.&lt;/td&gt;
+&lt;td&gt;Matt Gerstbrein&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Suggested Papers&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;http://bolyai.cs.elte.hu/egres/tr/egres-01-01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Fixed-Point Approach to Stable Matchings and Some Applications&lt;/a&gt; by Tamas Fleiner.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/pdf/1810.00392.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pairwise Preferences in the Stable Marriage Problem&lt;/a&gt; by Agnes Cseh and Attila Juhos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://epubs.siam.org/doi/pdf/10.1137/06067328X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Popular Matchings&lt;/a&gt; by David Abraham, Robert Irving, Telikepalli Kavitha, and Kurt Melhorn.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://epubs.siam.org/doi/pdf/10.1137/1.9781611974782.151&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Popularity, Mixed Matchings, and Self-Duality&lt;/a&gt; by Chien-Chung Huang and Telikepalli Kavitha.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://link.springer.com/chapter/10.1007%2F978-3-642-22006-7_56&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Popular Matchings in the Stable Marriage Problem&lt;/a&gt; by Chien-Chung Huang and Telikepalli Kavitha.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/pdf/1805.11473.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Popular Matchings and Limits to Tractability&lt;/a&gt; by Yuri Faenza, Telikepalli Kavitha, Vladlena Powers, and Xingyu Zhang.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/pdf/1904.05974.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quasi-Popular Matchings, Optimality, and Extended Formulations&lt;/a&gt; by Yuri Faenza and Telikepalli Kavitha.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;http://dx.doi.org/10.1016/j.mathsocsci.2006.03.005&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Three-dimensional stable matching with cyclic preferences&lt;/a&gt; by Kimo Eriksson, Jonas Sjostrand, and Pontus Strimling.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;http://dx.doi.org/10.1007/s00453-009-9315-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Three-sided stable matchings with cyclic preferences&lt;/a&gt; by Peter Biro and Eric McDermid&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/pdf/1407.1853.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stable Marriage with General Preferences&lt;/a&gt; by Linda Farczadi, Konstantinos Georgiou, and Jochen Koenemann.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://link.springer.com/article/10.1007/s00453-009-9371-7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Better and Simpler Approximation Algorithms for the Stable Marriage Problem&lt;/a&gt; by Zoltan Kiraly.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-642-16926-7_7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;On Stable Matchings and Flows&lt;/a&gt; by Tamas Fleiner.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;13.&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/pdf/1309.3701.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;New and Simple Algorithms for Stable Flow Problems&lt;/a&gt; by Agnes Cseh and Jannik Matuschke.&lt;/p&gt;
+&lt;ol start=&#34;14&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/pdf/1804.00553.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Finding Stable Matchings that are Robust to Errors in the Input&lt;/a&gt; by Tung Mai and Vijay Vazirani.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/pdf/1804.05537.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stable Matchings, Robust Solutions, and Distributive Lattices&lt;/a&gt; by Tung Mai and Vijay Vazirani.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://epubs.siam.org/doi/10.1137/1.9781611975482.175&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A (1 + 1/e)-Approximation Algorithm for Maximum Stable Matching with One-Sided Ties and Incomplete Lists&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Submodular Function Maximization</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-f2019-submodular-maximization/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-f2019-submodular-maximization/</guid>
+      <description>&lt;p&gt;This term our reading group studies the broad topic of submodular function maximization, with a special focus on the emerging adaptive complexity model.&lt;/p&gt;
+&lt;p&gt;If you are interested in presenting please fill out this &lt;a href=&#34;https://forms.gle/jnoRgfFixU1GbQ459&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;form&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Schedule&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Sept 27, 2019&lt;/td&gt;
+&lt;td&gt;Overview Talk&lt;/td&gt;
+&lt;td&gt;Chaitanya Swamy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 04, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.cs.toronto.edu/~eidan/papers/submod-max.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;An Analysis of Approximations for Maximizing Submodular Set Functions&lt;/a&gt; by Fisher, Nemhauser and Wolsey&lt;/td&gt;
+&lt;td&gt;Ishan Bansal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 11, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://theory.stanford.edu/~jvondrak/data/submod-matroid.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maximizing a Monotone Submodular Function Subject to a Matroid Constraint&lt;/a&gt; by Calinescu, Gruia, Chekuri, Pál, and Vondrák&lt;/td&gt;
+&lt;td&gt;Justin Toth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 18, 2019&lt;/td&gt;
+&lt;td&gt;No Talk. &lt;em&gt;&lt;em&gt;Reading Week&lt;/em&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 25, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://theory.stanford.edu/~jvondrak/data/multiple-matroids-MOR.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Submodular Maximization over Multiple Matroids via Generalized Exchange Properties&lt;/a&gt; &lt;em&gt;&lt;em&gt;See also:&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;http://www.optimization-online.org/DB_FILE/2008/10/2125.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Akshay Ramachandran&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 01, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://people.csail.mit.edu/mirrokni/focs07.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maximizing Non-Monotone Submodular Functions&lt;/a&gt; by Feige, Mirrokni, and Vondrák&lt;/td&gt;
+&lt;td&gt;Zishen Qu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 08, 2019&lt;/td&gt;
+&lt;td&gt;No talk volunteered.&lt;/td&gt;
+&lt;td&gt;NA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 15, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://epubs.siam.org/doi/10.1137/1.9781611975482.16&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deterministic 0.5008-Approximation for Submodular Maximization over a Matroid&lt;/a&gt; by Buchbinder, Feldman, and Garg&lt;/td&gt;
+&lt;td&gt;Ben Moore&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 22, 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/1105.4593&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Submodular Function Maximization via the Multilinear Relaxation and Contention Resolution Schemes&lt;/a&gt; by Vondrák, Chekuri, and Zenklusen&lt;/td&gt;
+&lt;td&gt;Sharat Ibrahimpur&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Suggested Papers&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://las.inf.ethz.ch/files/krause12survey.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Submodular Function Maximization (Survey)&lt;/a&gt; by Krause and Golovin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;http://www.cs.toronto.edu/~eidan/papers/submod-max.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;An Analysis of Approximations for Maximizing Submodular Set Functions&lt;/a&gt; by Fisher, Nemhauser and Wolsey.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://theory.stanford.edu/~jvondrak/data/submod-matroid.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maximizing a Monotone Submodular Function Subject to a Matroid Constraint&lt;/a&gt; by Calinescu, Gruia, Chekuri, Pál, and Vondrák.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://pdfs.semanticscholar.org/0d49/b061c4af74871926366caadb8841b1082c54.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maximizing Submodular Set Functions Subject to Multiple Linear Constraints&lt;/a&gt; by Kulik, Ariel, Shachnai, and Tamir.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/abs/1311.4728&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optimal Approximation for Submodular and Supermodular Optimization with Bounded Curvature&lt;/a&gt; by Sviridenko, Vondrák, and Ward.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;http://www.optimization-online.org/DB_FILE/2008/10/2125.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maximizing Nonmonotone Submodular Functions Under Matroid or Knapsack Constraints&lt;/a&gt; by Lee, Mirrokni, Nagarajan, and Sviridenko.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://people.csail.mit.edu/mirrokni/focs07.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maximizing Non-Monotone Submodular Functions&lt;/a&gt; by Feige, Uriel, Mirrokni, and Vondrák.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/1105.4593&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Submodular Function Maximization via the Multilinear Relaxation and Contention Resolution Schemes&lt;/a&gt; by Vondrák, Chekuri, and Zenklusen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/abs/1110.4860&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Symmetry and Approximability of Submodular Maximization Problems&lt;/a&gt; by Vondrák&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/abs/1608.03611&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Constrained Submodular Maximization: Beyond 1/e&lt;/a&gt; by Ene and Nguyen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://www.openu.ac.il/personal_sites/moran-feldman/publications/SICOMP2015.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Tight Linear Time (1/2)-Approximation For
+Unconstrained Submodular Maximization&lt;/a&gt; by Buchbinder, Feldman, Naor, Schwartz.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://scholar.harvard.edu/files/ericbalkanski/files/the-adaptive-complexity-of-maximizing-a-submodular-function.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Adaptive Complexity of Maximizing a Submodular Function&lt;/a&gt; by Balkanski and Singer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/abs/1811.06603&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unconstrained Submodular Maximization with Constant Adaptive Complexity&lt;/a&gt; by Chen, Lin, Feldman, and Karbasi.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/abs/1811.12568&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Parallelizing Greedy for Submodular Set Function Maximization in Matroids and Beyond&lt;/a&gt; by Chekuri and Quanrud.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/pdf/1804.00553.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Submodular Maximization with Matroid and Packing Constraints in Parallel&lt;/a&gt; by Ene, Nguyen, and Vladu.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/abs/1811.03093&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;An Optimal Approximation for Submodular Maximization Under a Matroid Constraint in the Adaptive Complexity Model&lt;/a&gt; by Balkanski, Rubinstein, and Singer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;em&gt;To be claimed&lt;/em&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/abs/1807.11462&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Non-Monotone Submodular Maximization in Exponentially Fewer Iterations&lt;/a&gt; by Balkanski, Breuer, and Singer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://epubs.siam.org/doi/10.1137/1.9781611975482.16&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deterministic 0.5008-Approximation for Submodular Maximization over a Matroid
+(Buchbinder, Feldman, and Garg)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claimed&lt;/strong&gt; &lt;a href=&#34;https://theory.stanford.edu/~jvondrak/data/multiple-matroids-MOR.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Submodular Maximization over Multiple Matroids via Generalized Exchange Properties&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

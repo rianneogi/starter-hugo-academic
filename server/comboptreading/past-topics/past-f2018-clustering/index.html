@@ -1,0 +1,1174 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Rian Neogi" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content=" Date Location Topic Presenter Oct 12, 2018 MC 5479 Overview and LP rounding for uncapacitated facility location Chaitanya Swamy Oct 19, 2018 MC 5479 Primal dual for facility location, Lagrangian relaxation technique for k-median Hao Sun Oct 26, 2018 MC 5479 Local search for uncapacitated facility location, capacitated facility location, k-median Zishen Qu Nov 2, 2018 MC 5479 &ldquo;Approximating k-Median via Pseudo-Approximation&rdquo; (2013) by Shi Li and Ola Svensson Sharat Ibrahimpur Nov 9, 2018 MC 5417 &ldquo;Approximate Clustering without the Approximation&rdquo; (2009) by Maria-Florina Balcan, Avrim Blum and Anupam Gupta Thomas Baxter Nov 16, 2018 MC 5479 &ldquo;Stability Yields a PTAS for k-Median and k-Means Clustering&rdquo; (2010) by Pranjal Awasthi, Avrim Blum and Or Sheffet Adam Brown Nov 23, 2018 MC 5479 Local Search for Capacitated Facility Location Akshay Ramachadran Nov 30, 2018 MC 5479 Ordered k-median Sharat Ibrahimpur " />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-f2018-clustering/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/~rneogi/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/~rneogi/css/wowchemy.3495fc6150afdd177f1d04fbba9f5e2c.css" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/~rneogi/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/~rneogi/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+    <meta name="google-site-verification" content="blYZ7qBcGuii_9eWiDfQ-H2MmVdUJnCRyMkiU3BBnY4" />
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=https%3a%2f%2fsearch.google.com%2fsearch-console%2finsights%3futm_source%3dsearch_console%26utm_medium%3dsearch_console%26utm_campaign%3dsearch_console_dashboard%26resource_id%3dhttp%253A%252F%252Fwww.math.uwaterloo.ca%252F%257Erneogi%252F%26hl%3den"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'https:\/\/search.google.com\/search-console\/insights?utm_source=search_console\u0026utm_medium=search_console\u0026utm_campaign=search_console_dashboard\u0026resource_id=http%3A%2F%2Fwww.math.uwaterloo.ca%2F%7Erneogi%2F\u0026hl=en', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    <link rel="manifest" href="/~rneogi/manifest.webmanifest" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-f2018-clustering/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Rian Neogi" />
+  <meta property="og:url" content="http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-f2018-clustering/" />
+  <meta property="og:title" content="Clustering | Rian Neogi" />
+  <meta property="og:description" content=" Date Location Topic Presenter Oct 12, 2018 MC 5479 Overview and LP rounding for uncapacitated facility location Chaitanya Swamy Oct 19, 2018 MC 5479 Primal dual for facility location, Lagrangian relaxation technique for k-median Hao Sun Oct 26, 2018 MC 5479 Local search for uncapacitated facility location, capacitated facility location, k-median Zishen Qu Nov 2, 2018 MC 5479 &ldquo;Approximating k-Median via Pseudo-Approximation&rdquo; (2013) by Shi Li and Ola Svensson Sharat Ibrahimpur Nov 9, 2018 MC 5417 &ldquo;Approximate Clustering without the Approximation&rdquo; (2009) by Maria-Florina Balcan, Avrim Blum and Anupam Gupta Thomas Baxter Nov 16, 2018 MC 5479 &ldquo;Stability Yields a PTAS for k-Median and k-Means Clustering&rdquo; (2010) by Pranjal Awasthi, Avrim Blum and Or Sheffet Adam Brown Nov 23, 2018 MC 5479 Local Search for Capacitated Facility Location Akshay Ramachadran Nov 30, 2018 MC 5479 Ordered k-median Sharat Ibrahimpur " /><meta property="og:image" content="http://www.math.uwaterloo.ca/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="http://www.math.uwaterloo.ca/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2018-09-09T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2018-09-09T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+
+  <title>Clustering | Rian Neogi</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="7363968f295b07a7f4e7261ab86bb9ca" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/~rneogi/js/wowchemy-init.min.613040fe4f2c0f007b4dcb64404201cb.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/~rneogi/">Rian Neogi</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/~rneogi/">Rian Neogi</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/~rneogi/#about"><span>About Me</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/~rneogi/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/~rneogi/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+        
+          
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+  <button class="form-control sidebar-search js-search d-none d-md-flex">
+    <i class="fas fa-search pr-2"></i>
+    <span class="sidebar-search-text">Search...</span>
+    <span class="sidebar-search-shortcut">/</span>
+  </button>
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+
+    
+      
+
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <ul class="nav docs-sidenav">
+        <li class=""><a href="/~rneogi/comboptreading/">Overview</a></li>
+    
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/~rneogi/comboptreading/past-topics/"></a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-w2017-discrepancy/">Discrepancy</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-s2017-interlacing/">Ramanujan Graphs and Interlacing Families</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-s2017-tsp/">Travelling Salesman</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-w2018-stable_polynomials/">Stable Polynomials</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-s2018-mwu/">Multiplicative Weight Updates</a></li>
+
+
+
+  <li class="active"><a href="/~rneogi/comboptreading/past-topics/past-f2018-clustering/">Clustering</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-w2019-coloring/">Approximate Graph Coloring</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-s2019-stable-matching/">Stable Matching</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-f2019-submodular-maximization/">Submodular Function Maximization</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/current-w2020-research-interests/">Research Interests</a></li>
+
+      
+    
+
+    
+      </ul>
+    
+
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents"></nav>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+        </div>
+
+        
+        
+
+        <div class="docs-article-container">
+          
+          <h1>Clustering</h1>
+
+          <div class="article-style">
+
+            
+            
+
+            <table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Location</th>
+<th>Topic</th>
+<th>Presenter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Oct 12, 2018</td>
+<td>MC 5479</td>
+<td>Overview and LP rounding for uncapacitated facility location</td>
+<td>Chaitanya Swamy</td>
+</tr>
+<tr>
+<td>Oct 19, 2018</td>
+<td>MC 5479</td>
+<td>Primal dual for facility location, Lagrangian relaxation technique for k-median</td>
+<td>Hao Sun</td>
+</tr>
+<tr>
+<td>Oct 26, 2018</td>
+<td>MC 5479</td>
+<td>Local search for uncapacitated facility location, capacitated facility location, k-median</td>
+<td>Zishen Qu</td>
+</tr>
+<tr>
+<td>Nov 2, 2018</td>
+<td>MC 5479</td>
+<td>&ldquo;Approximating k-Median via Pseudo-Approximation&rdquo; (2013) <em>by Shi Li and Ola Svensson</em></td>
+<td>Sharat Ibrahimpur</td>
+</tr>
+<tr>
+<td>Nov 9, 2018</td>
+<td><strong>MC 5417</strong></td>
+<td>&ldquo;Approximate Clustering without the Approximation&rdquo; (2009) <em>by Maria-Florina Balcan, Avrim Blum and Anupam Gupta</em></td>
+<td>Thomas Baxter</td>
+</tr>
+<tr>
+<td>Nov 16, 2018</td>
+<td>MC 5479</td>
+<td>&ldquo;Stability Yields a PTAS for k-Median and k-Means Clustering&rdquo; (2010) <em>by Pranjal Awasthi, Avrim Blum and Or Sheffet</em></td>
+<td>Adam Brown</td>
+</tr>
+<tr>
+<td>Nov 23, 2018</td>
+<td>MC 5479</td>
+<td>Local Search for Capacitated Facility Location</td>
+<td>Akshay Ramachadran</td>
+</tr>
+<tr>
+<td>Nov 30, 2018</td>
+<td>MC 5479</td>
+<td>Ordered k-median</td>
+<td>Sharat Ibrahimpur</td>
+</tr>
+</tbody>
+</table>
+
+
+          </div>
+
+          
+
+
+
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/~rneogi/comboptreading/past-topics/past-s2018-mwu/" rel="next">Multiplicative Weight Updates</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/~rneogi/comboptreading/past-topics/past-w2019-coloring/" rel="prev">Approximate Graph Coloring</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Sep 9, 2018</p>
+
+          
+
+
+
+
+          
+
+
+
+
+          
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+
+
+<script src="/~rneogi/js/vendor-bundle.min.e66e385e2f1df861699d60acd7a9c670.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/bryanbraun/anchorjs@4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+<script>
+  anchors.add();
+</script>
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/~rneogi/en/js/wowchemy.min.038cda342bf96e1109dcba169cad43d9.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/~rneogi/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

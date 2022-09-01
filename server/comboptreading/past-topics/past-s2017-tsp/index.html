@@ -1,0 +1,1210 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Rian Neogi" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Date Topic Presenter Info May 5, 2017 Classic results and overview of the results from the chosen papers Laura Sanita May 15, 2017 &ldquo;Approximating Graphic TSP by Matchings&rdquo; (2011) by Tobias Momke, and Ola Svensson Matthew Buckley Here is a talk by Naveen Garg Approximating Graphic TSP by Matchings May 19, 2017 &ldquo;Shorter Tours by Nicer Ears: 7/5-approximation for graphic TSP, 3/2 for the path version, and 4/3 for two-edge-connected subgraphs&rdquo; (2012) by Andras Sebo, and Jens Vygen Justin Toth May 26, 2017 &ldquo;On the metric s-t path Travelling Salesman Problem&rdquo; (2014) by Zhihan Gao Andre Linhares June 2, 2017 &ldquo;Better s-t-Tours by Gao Trees&rdquo; (2015) by Corinna Gottschalk, and Jens Vygen Martin Gross A talk by Jens Vygen, Reassembling trees for the travelling salesman leads up to the result of Corinna Gottschalk and Jens Vygen." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2017-tsp/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/~rneogi/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/~rneogi/css/wowchemy.3495fc6150afdd177f1d04fbba9f5e2c.css" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/~rneogi/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/~rneogi/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+    <meta name="google-site-verification" content="blYZ7qBcGuii_9eWiDfQ-H2MmVdUJnCRyMkiU3BBnY4" />
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=https%3a%2f%2fsearch.google.com%2fsearch-console%2finsights%3futm_source%3dsearch_console%26utm_medium%3dsearch_console%26utm_campaign%3dsearch_console_dashboard%26resource_id%3dhttp%253A%252F%252Fwww.math.uwaterloo.ca%252F%257Erneogi%252F%26hl%3den"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'https:\/\/search.google.com\/search-console\/insights?utm_source=search_console\u0026utm_medium=search_console\u0026utm_campaign=search_console_dashboard\u0026resource_id=http%3A%2F%2Fwww.math.uwaterloo.ca%2F%7Erneogi%2F\u0026hl=en', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    <link rel="manifest" href="/~rneogi/manifest.webmanifest" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2017-tsp/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Rian Neogi" />
+  <meta property="og:url" content="http://www.math.uwaterloo.ca/~rneogi/comboptreading/past-topics/past-s2017-tsp/" />
+  <meta property="og:title" content="Travelling Salesman | Rian Neogi" />
+  <meta property="og:description" content="Date Topic Presenter Info May 5, 2017 Classic results and overview of the results from the chosen papers Laura Sanita May 15, 2017 &ldquo;Approximating Graphic TSP by Matchings&rdquo; (2011) by Tobias Momke, and Ola Svensson Matthew Buckley Here is a talk by Naveen Garg Approximating Graphic TSP by Matchings May 19, 2017 &ldquo;Shorter Tours by Nicer Ears: 7/5-approximation for graphic TSP, 3/2 for the path version, and 4/3 for two-edge-connected subgraphs&rdquo; (2012) by Andras Sebo, and Jens Vygen Justin Toth May 26, 2017 &ldquo;On the metric s-t path Travelling Salesman Problem&rdquo; (2014) by Zhihan Gao Andre Linhares June 2, 2017 &ldquo;Better s-t-Tours by Gao Trees&rdquo; (2015) by Corinna Gottschalk, and Jens Vygen Martin Gross A talk by Jens Vygen, Reassembling trees for the travelling salesman leads up to the result of Corinna Gottschalk and Jens Vygen." /><meta property="og:image" content="http://www.math.uwaterloo.ca/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="http://www.math.uwaterloo.ca/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2017-05-05T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2017-05-05T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+
+  <title>Travelling Salesman | Rian Neogi</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="9061e9e123862771817b953bd22cb2d4" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/~rneogi/js/wowchemy-init.min.613040fe4f2c0f007b4dcb64404201cb.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/~rneogi/">Rian Neogi</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/~rneogi/">Rian Neogi</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/~rneogi/#about"><span>About Me</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/~rneogi/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/~rneogi/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+        
+          
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+  <button class="form-control sidebar-search js-search d-none d-md-flex">
+    <i class="fas fa-search pr-2"></i>
+    <span class="sidebar-search-text">Search...</span>
+    <span class="sidebar-search-shortcut">/</span>
+  </button>
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+
+    
+      
+
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <ul class="nav docs-sidenav">
+        <li class=""><a href="/~rneogi/comboptreading/">Overview</a></li>
+    
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/~rneogi/comboptreading/past-topics/"></a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-w2017-discrepancy/">Discrepancy</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-s2017-interlacing/">Ramanujan Graphs and Interlacing Families</a></li>
+
+
+
+  <li class="active"><a href="/~rneogi/comboptreading/past-topics/past-s2017-tsp/">Travelling Salesman</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-w2018-stable_polynomials/">Stable Polynomials</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-s2018-mwu/">Multiplicative Weight Updates</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-f2018-clustering/">Clustering</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-w2019-coloring/">Approximate Graph Coloring</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-s2019-stable-matching/">Stable Matching</a></li>
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/past-topics/past-f2019-submodular-maximization/">Submodular Function Maximization</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+
+
+  <li class=""><a href="/~rneogi/comboptreading/current-w2020-research-interests/">Research Interests</a></li>
+
+      
+    
+
+    
+      </ul>
+    
+
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents"></nav>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+        </div>
+
+        
+        
+
+        <div class="docs-article-container">
+          
+          <h1>Travelling Salesman</h1>
+
+          <div class="article-style">
+
+            
+            
+
+            <table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Presenter</th>
+<th>Info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>May 5, 2017</td>
+<td>Classic results and overview of the results from the chosen papers</td>
+<td>Laura Sanita</td>
+<td></td>
+</tr>
+<tr>
+<td>May 15, 2017</td>
+<td>&ldquo;Approximating Graphic TSP by Matchings&rdquo; (2011) <em>by Tobias Momke, and Ola Svensson</em></td>
+<td>Matthew Buckley</td>
+<td>Here is a talk by Naveen Garg <a href="https://www.youtube.com/watch?v=LPKHnPeF7aI" target="_blank" rel="noopener">Approximating Graphic TSP by Matchings</a></td>
+</tr>
+<tr>
+<td>May 19, 2017</td>
+<td>&ldquo;Shorter Tours by Nicer Ears: 7/5-approximation for graphic TSP, 3/2 for the path version, and 4/3 for two-edge-connected subgraphs&rdquo; (2012) <em>by Andras Sebo, and Jens Vygen</em></td>
+<td>Justin Toth</td>
+<td></td>
+</tr>
+<tr>
+<td>May 26, 2017</td>
+<td>&ldquo;On the metric s-t path Travelling Salesman Problem&rdquo; (2014) <em>by Zhihan Gao</em></td>
+<td>Andre Linhares</td>
+<td></td>
+</tr>
+<tr>
+<td>June 2, 2017</td>
+<td>&ldquo;Better s-t-Tours by Gao Trees&rdquo; (2015) <em>by Corinna Gottschalk, and Jens Vygen</em></td>
+<td>Martin Gross</td>
+<td>A talk by Jens Vygen, <a href="https://www.youtube.com/watch?v=kHAd1reeLlA" target="_blank" rel="noopener">Reassembling trees for the travelling salesman</a> leads up to the result of Corinna Gottschalk and Jens Vygen. Please note that recently Frans Schalekamp Andras Sebo, Vera Traub, and Anke van Zuylen provided a short <a href="https://arxiv.org/abs/1703.07170" target="_blank" rel="noopener">proof</a> of the key structural result of Corinna Gottschalk and Jens Vygen.</td>
+</tr>
+<tr>
+<td>June 9, 2017</td>
+<td>&ldquo;The Salesman&rsquo;s Improved Paths: A 3/2+1/34 Approximation&rdquo; (2016) <em>by Andras Sebo, and Anke van Zuylen</em></td>
+<td>Andras Sebo</td>
+<td>The algorithm, the main proof of the analysis and the intuition behind its ingredients will be explained, including the gain of using Gottschalk and Vygen&rsquo;s particular convex combination of spanning trees, and how Schalekamp, Sebo, Traub, and van Zuylen finally managed to use matroid union in <a href="https://arxiv.org/abs/1703.07170" target="_blank" rel="noopener">&ldquo;Layers and matroids for the travelling salesman&rsquo;s paths</a> (2017) for a simple algorithmic proof of this particular convex combination.</td>
+</tr>
+<tr>
+<td>June 16, 2017</td>
+<td>&ldquo;Polynomial-Time Separation of a Superclass of Simple Comb Inequalities&rdquo; (2006) <em>by Lisa Fleischer, Adam Letchford, and Andrea Lodi</em></td>
+<td>Quincy Lap-Kwan Lam</td>
+<td></td>
+</tr>
+<tr>
+<td>June 23, 2017</td>
+<td>Questions and Discussion Session with Sylvia Boyd and Andras Sebo</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>June 30, 2017</td>
+<td><strong>IPCO Break. This Friday we have no talks</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>July 7, 2017</td>
+<td>&ldquo;An O(log n/ log log n)-approximation Algorithm for the Asymmetric Traveling Salesman Problem&rdquo; (2010) <em>by Arash Asadpour, Michel Goemans, Aleksander Madry, Shayan Oveis Gharan, and Amin Saberi</em></td>
+<td>Akshay Ramachadran</td>
+<td>Here is a talk by Shayan Oveis <a href="https://www.youtube.com/watch?v=MopVn3ltnAY" target="_blank" rel="noopener">The Asymmetric Traveling Salesman Problem</a></td>
+</tr>
+<tr>
+<td>July 14, 2017</td>
+<td>&ldquo;Approximating ATSP by Relaxing Connectivity&rdquo; (2015) <em>by Ola Svensson</em></td>
+<td>Zhuan Khye Koh</td>
+<td>Here is a talk by Ola Svensson <a href="https://www.youtube.com/watch?v=_PSQUQxpziU" target="_blank" rel="noopener">Approximating ATSP by Relaxing Connectivity</a></td>
+</tr>
+<tr>
+<td>July 21, 2017</td>
+<td><strong>SiGMa break. This Friday we have no talks.</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>July 28, 2017</td>
+<td>&ldquo;Constant Factor Approximation for ATSP with Two Edge Weights&rdquo; (2015) <em>by Ola Svensson, Jakub Tarnawski, and Laszlo Vegh</em></td>
+<td>Sharat Ibrahimpur</td>
+<td></td>
+</tr>
+<tr>
+<td>Aug 4, 2017</td>
+<td>&ldquo;Effective-Resistance-Reducing Flows, Spectrally Thin Trees, and Asymmetric TSP&rdquo; (2014) <em>by Nima Anari, and Shayan Oveis Gharan</em></td>
+<td>Akshay Ramachadran and Julian Romero</td>
+<td><em>This talk does not assume any previous reading</em>. Further reading: Nikhil Srivastava&rsquo;s blog post <a href="https://windowsontheory.org/2013/07/11/discrepancy-graphs-and-the-kadison-singer-conjecture-2/" target="_blank" rel="noopener">Discrepancy, Graphs, and the Kadison-Singer Problem</a>. Please also take a look at the course <a href="https://homes.cs.washington.edu/~shayan/courses/cse599/index.html" target="_blank" rel="noopener">Recent Developments in Approximation Algorithms</a> by Shayan Oveis Gharan. In Lecture 18 and 19 of this course, the results from the above paper were presented.</td>
+</tr>
+</tbody>
+</table>
+
+
+          </div>
+
+          
+
+
+
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/~rneogi/comboptreading/past-topics/past-s2017-interlacing/" rel="next">Ramanujan Graphs and Interlacing Families</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/~rneogi/comboptreading/past-topics/past-w2018-stable_polynomials/" rel="prev">Stable Polynomials</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on May 5, 2017</p>
+
+          
+
+
+
+
+          
+
+
+
+
+          
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+
+
+<script src="/~rneogi/js/vendor-bundle.min.e66e385e2f1df861699d60acd7a9c670.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/bryanbraun/anchorjs@4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+<script>
+  anchors.add();
+</script>
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/~rneogi/en/js/wowchemy.min.038cda342bf96e1109dcba169cad43d9.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/~rneogi/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

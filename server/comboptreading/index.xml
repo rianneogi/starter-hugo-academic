@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview | Rian Neogi</title>
+    <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/</link>
+      <atom:link href="http://www.math.uwaterloo.ca/~rneogi/comboptreading/index.xml" rel="self" type="application/rss+xml" />
+    <description>Overview</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.math.uwaterloo.ca/~rneogi/media/icon_hu0fcf19b543ad5377b8a4b35d33dd1ebb_30454_512x512_fill_lanczos_center_3.png</url>
+      <title>Overview</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/</link>
+    </image>
+    
+    <item>
+      <title>Research Interests</title>
+      <link>http://www.math.uwaterloo.ca/~rneogi/comboptreading/current-w2020-research-interests/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.math.uwaterloo.ca/~rneogi/comboptreading/current-w2020-research-interests/</guid>
+      <description>&lt;p&gt;&lt;em&gt;After a brief hiatus to sort things out due to the COVID-19 pandemic, the CombOpt reading group is continuing its &amp;ldquo;Research Interests&amp;rdquo; series in Spring term 2020.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This term our reading group will be exploring the various research interests of students and faculty working on problems related to combinatorial optimization. If you would like to present on your recent work or a paper you find interesting please let one of the organizers know. This is a great opportunity to learn what other people working in combinatorial optimization are studying and to encourage collaboration.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Schedule&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Spring 2020 Active Schedule. Playlist for previously recorded talks &lt;a href=&#34;https://www.youtube.com/playlist?list=PL8UC-bwQca_ioFzpmUjOW5atbdg-1VvCG&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;May 29, 2020&lt;/td&gt;
+&lt;td&gt;b-Matching Games: A Case Study in Computing the Nucleolus on Graphs of Bounded Treewidth&lt;/td&gt;
+&lt;td&gt;Justin Toth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June 05, 2020&lt;/td&gt;
+&lt;td&gt;A Strongly Polynomial Label-Correcting Algorithm for Linear Systems with Two Variables per Inequality&lt;/td&gt;
+&lt;td&gt;Cedric Koh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June 12, 2020&lt;/td&gt;
+&lt;td&gt;One Dollar Each Eliminates Envy&lt;/td&gt;
+&lt;td&gt;Vishnu Narayan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;June 18, 2020&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;&lt;em&gt;Talk Occurs on Thursday at 1:30&lt;/em&gt;&lt;/em&gt; Graph coloring of graphs with large girth is hard for the Nullstellensatz&lt;/td&gt;
+&lt;td&gt;Julian Romero&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July 10, 2020&lt;/td&gt;
+&lt;td&gt;Reachability in arborescence packings&lt;/td&gt;
+&lt;td&gt;Florian Hoersch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July 17, 2020&lt;/td&gt;
+&lt;td&gt;Two unsolved problems: Birkhoff–von Neumann graphs and PM-compact graphs&lt;/td&gt;
+&lt;td&gt;Nishad Kothari&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July 24, 2020&lt;/td&gt;
+&lt;td&gt;A 4/3-Approximation Algorithm for the Minimum 2-Edge Connected Multisubgraph Problem in the Half-Integral Case &lt;a href=&#34;https://www.wjtoth.com/comboptreading/sharat-talk-s2020.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Sharat Ibrahimpur&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July 31, 2020&lt;/td&gt;
+&lt;td&gt;Weighted Maximum Multicommodity Flows over time&lt;/td&gt;
+&lt;td&gt;Haripriya Pulyassary&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Winter 2020 Talks&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 10, 2020&lt;/td&gt;
+&lt;td&gt;Beating 3/2 for Approximating TSP in the Half-Integral Case&lt;/td&gt;
+&lt;td&gt;Logan Grout&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 17, 2020&lt;/td&gt;
+&lt;td&gt;The Capacitated Survivable Network Design Problem&lt;/td&gt;
+&lt;td&gt;Ishan Bansal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 24, 2020&lt;/td&gt;
+&lt;td&gt;On the Strong Nine Dragon Tree Conjecture&lt;/td&gt;
+&lt;td&gt;Ben Moore&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan 31, 2020&lt;/td&gt;
+&lt;td&gt;Network Design for s-t Effective Resistance&lt;/td&gt;
+&lt;td&gt;Hong Zhou&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 14, 2020&lt;/td&gt;
+&lt;td&gt;The Aggregation Closure is Polyhedral for Packing and Covering Integer Programs&lt;/td&gt;
+&lt;td&gt;Kanstantsin Pashkovich&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feb 28, 2020&lt;/td&gt;
+&lt;td&gt;An Introduction to the Circuits of Polyhedra, the Circuit Diameter, and Their Applications&lt;/td&gt;
+&lt;td&gt;Sean Kafer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar 06, 2020&lt;/td&gt;
+&lt;td&gt;Recognizing Slack Matrices&lt;/td&gt;
+&lt;td&gt;Matt Gerstbrein&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

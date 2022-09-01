@@ -21,7 +21,7 @@ marketing:
     description: 'PhD Student at C&O department at University of Waterloo'
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'https://search.google.com/search-console/insights?utm_source=search_console&utm_medium=search_console&utm_campaign=search_console_dashboard&resource_id=http%3A%2F%2Fwww.math.uwaterloo.ca%2F%7Erneogi%2F&hl=en'
     baidu_tongji: ''
   verification:
     google: 'blYZ7qBcGuii_9eWiDfQ-H2MmVdUJnCRyMkiU3BBnY4'
