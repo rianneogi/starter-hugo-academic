@@ -64,7 +64,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'http://www.math.uwaterloo.ca/~rneogi/Slides/HSCC_MFCS_slides.pdf'
+url_slides: 'http://www.math.uwaterloo.ca/~rneogi/publication/hscc_mfcs/HSCC_MFCS_slides.pdf'
 url_source: ''
 # url_video: 'https://www.youtube.com/watch?v=8l8HmUPVoK4'
 
