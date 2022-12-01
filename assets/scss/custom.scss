@@ -1,6 +1,15 @@
-.article-container {
-	max-width: 90%;
-	padding: 0 20px 0 20px;
-	margin: 0 auto 0 auto;
-	font-size: 20px;
-}
+// .article-container {
+// 	max-width: 90%;
+// 	padding: 0 20px 0 20px;
+// 	margin: 0 auto 0 auto;
+// 	font-size: 20px;
+// }
+
+// .container-lg {
+// 	width: 80% !important;
+// }
+
+// @media (min-width: 576px) {.container-sm, .container {max-width: 80%; }}
+// @media (min-width: 768px) {.container-md, .container-sm, .container {max-width: 80%;}}
+// @media (min-width: 992px) {.container-lg, .container-md, .container-sm, .container {max-width: 80%;}}
+@media (min-width: 1200px) {.docs-article-container {max-width: 100%;}}

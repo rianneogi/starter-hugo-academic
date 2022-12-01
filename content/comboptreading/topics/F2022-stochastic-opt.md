@@ -8,6 +8,7 @@ draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: book  # Do not modify.
 weight: 100
+css: "contact"
 
 # Add menu entry to sidebar.
 # linktitle: "Research Interests"
@@ -25,9 +26,9 @@ This term our reading group will be exploring the various research interests of 
 <!-- Spring 2020 Active Schedule. Playlist for previously recorded talks [here](https://www.youtube.com/playlist?list=PL8UC-bwQca_ioFzpmUjOW5atbdg-1VvCG). -->
 
 {{<table2 "table table-striped table-bordered">}}
-| Date          | Topic                                                                                                 | Speaker             | Abstract | Youtube Link |
-| ------------- | ----------------------------------------------------------------------------------------------------- | --------------------- |---------- |-------- |
-| May 29, 2020  | Stochastic Optimization              | Ricardo Fukasawa      |While deterministic optimization problems are very useful in practice, often times the assumption that all data is known in advance does not hold true. One possible way to relax this assumption is to assume that the data depends on random variables. This assumption leads to stochastic optimization problems. In this talk, I will talk about a few different approaches on how to deal with stochastic optimization problems, with the goal to give an initial overview of several different issues that arise in these problems. | N/A
+| Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic                                                                                                 | Speaker             | Abstract | Youtube Link |
+| ------------- | -------- | --------------------- |---------- |-------- |
+| May 29, 2020  | Stochastic Optimization              | Ricardo Fukasawa      |<a href="./../ricardo_abstract.txt"> Show </a>| N/A
 | June 05, 2020 | A Strongly Polynomial Label-Correcting Algorithm for Linear Systems with Two Variables per Inequality | Cedric Koh            |
 | June 12, 2020 | One Dollar Each Eliminates Envy                                                                       | Vishnu Narayan        |
 | June 18, 2020 | _*Talk Occurs on Thursday at 1:30*_ Graph coloring of graphs with large girth is hard for the Nullstellensatz                                                                                                 | Julian Romero         |

@@ -8,7 +8,6 @@ date: 2018-09-09T00:00:00
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: book  # Do not modify.
-plugins_css: 'custom.css'
 
 # Add menu entry to sidebar.
 # [menu.comboptreading]
