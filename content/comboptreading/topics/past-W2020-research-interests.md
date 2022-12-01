@@ -12,7 +12,7 @@ type: book  # Do not modify.
 # linktitle: "Research Interests"
 # [menu.comboptreading]
   # parent: "Current Topic"
-  # weight: 1
+weight: 101
 ---
 
 _After a brief hiatus to sort things out due to the COVID-19 pandemic, the CombOpt reading group is continuing its "Research Interests" series in Spring term 2020._

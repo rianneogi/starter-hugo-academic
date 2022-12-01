@@ -12,7 +12,7 @@ type: book  # Do not modify.
 # linktitle: "Travelling Salesman"
 # [menu.comboptreading]
 parent: past-topics
-weight: 3
+weight: 108
 ---
 
 | Date          | Topic                                                                                                                                                                                             | Presenter                            | Info                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |

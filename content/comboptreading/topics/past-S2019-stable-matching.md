@@ -12,7 +12,7 @@ type: book  # Do not modify.
 # linktitle: "Stable Matching"
 # [menu.comboptreading]
 parent: past-topics
-weight: 8
+weight: 104
 ---
 This term our reading group studies Matching under Preferences.
 In the words of [Egres Open](http://lemon.cs.elte.hu/egres/open/Stable_matchings_and_kernels)

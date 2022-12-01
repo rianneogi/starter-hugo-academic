@@ -12,7 +12,7 @@ type: book  # Do not modify.
 # linktitle = "Approximate Graph Coloring"
 # [menu.comboptreading]
 parent: past-topics
-weight: 7
+weight: 105
 ---
 This term our reading group studies approximations for the chromatic number of a graph. 
 This topic was suggested by **Ben Moore**. Thank you Ben for contributing the topic and suggested list of papers!

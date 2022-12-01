@@ -12,7 +12,7 @@ type: book  # Do not modify.
 # linktitle = "Submodular Function Maximization"
 # [menu.comboptreading]
 #   parent = "Past Topics"
-weight: 9
+weight: 103
 ---
 This term our reading group studies the broad topic of submodular function maximization, with a special focus on the emerging adaptive complexity model.
 

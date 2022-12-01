@@ -12,7 +12,7 @@ type: book  # Do not modify.
 # linktitle = "Clustering"
 # [menu.comboptreading]
 #   parent = "Past Topics"
-weight: 6
+weight: 106
 ---
 
 | Date         | Location    | Topic                                                                                                               | Presenter          |

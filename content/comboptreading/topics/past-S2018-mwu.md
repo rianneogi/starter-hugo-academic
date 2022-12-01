@@ -10,7 +10,7 @@ type: book # Do not modify.
 
 # Add menu entry to sidebar.
 parent: past-topics
-weight: 5
+weight: 107
 ---
 
 | Date         | Topic                                                                                                                                                                                                                                                                      | Presenter          |
