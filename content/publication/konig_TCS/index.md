@@ -42,9 +42,9 @@ tags: [Parameterized Complexity]
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/1811.04560
 
 # external_link: 'http://www.math.uwaterloo.ca/~rneogi/publication/konig_tcs/konig_TCS.pdf'
 url_pdf: 'http://www.math.uwaterloo.ca/~rneogi/publication/konig_tcs/konig_TCS.pdf'

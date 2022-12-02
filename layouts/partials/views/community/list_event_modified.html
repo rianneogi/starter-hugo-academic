@@ -14,6 +14,8 @@
   {{ $icon = "fa-newspaper" }}
 {{ else if eq $item.Type "event" }}
   {{ $icon = "fa-chalkboard" }}
+{{ else if eq $item.Type "topic" }}
+  {{ $icon = "fa-chalkboard" }}
 {{ else if eq $item.Type "publication" }}
   {{ $show_authors = true }}
 {{ else if eq $item.Type "project" }}
@@ -29,8 +31,12 @@
   <!-- <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a> -->
   <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
   <br>
-  {{ $item.Params.subtitle }}
-  {{ if eq $item.Type "event" }}
+  
+  <!-- {{ if eq $item.Type "event" }} -->
+  
+  <!-- <span class="middot-divider"></span> -->
+  <!-- <span>{{ . }}</span> -->
+  by {{ $item.Params.subtitle }}
   <div class="article-metadata">
     <span>
       {{ partial "functions/get_event_dates" $item }}
@@ -40,7 +46,10 @@
     <span>{{ . }}</span>
     {{ end }}
   </div>
-  {{ end }}
+  {{ if $has_attachments }}
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    {{ end }}
+  <!-- {{ end }} -->
 
   <!-- {{ if and $show_authors $item.Params.authors (not $item.Params.hide_authors) }}
   <div class="article-metadata">
@@ -63,10 +72,6 @@
     {{ end }}
   </div> -->
 
-  {{ if $has_attachments }}
-  <div class="btn-links">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-  </div>
-  {{ end }}
+  
 
 </div>

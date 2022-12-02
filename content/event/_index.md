@@ -1,6 +1,6 @@
 ---
-draft: true
-title: Combinatorial Optimization Reading Group
+draft: false
+title: Topics
 cms_exclude: true
 share: false
 
@@ -9,6 +9,8 @@ share: false
 #   2 = Compact
 #   3 = Card
 view: 1
+
+show_future: true
 
 # Optional header image (relative to `static/media/` folder).
 header:

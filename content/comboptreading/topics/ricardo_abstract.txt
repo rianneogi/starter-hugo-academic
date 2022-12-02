@@ -1,4 +1,0 @@
-While deterministic optimization problems are very useful in practice, often times the assumption that all data is known in advance does not hold true. 
-One possible way to relax this assumption is to assume that the data depends on random variables. 
-This assumption leads to stochastic optimization problems. 
-In this talk, I will talk about a few different approaches on how to deal with stochastic optimization problems, with the goal to give an initial overview of several different issues that arise in these problems.

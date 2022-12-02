@@ -1,5 +1,5 @@
 ---
-# An instance of the Pages widget.
+# An instance of the Featured widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 
@@ -7,41 +7,33 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
-active: false
+weight: 80
 
-title: Publications
-subtitle: '(in chronological order)'
+active: true
+
+title: Upcoming Talks
+# subtitle: 'in Stochastic Optimization'
 
 content:
   # Filter on criteria
   filters:
     folders:
-      - publication
+      - event
     tag: ''
     category: ''
     publication_type: ''
     author: ''
     exclude_featured: false
     exclude_future: false
-    exclude_past: false
+    exclude_past: true
   # Choose how many pages you would like to display (0 = all pages)
   count: 0
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
-  order: desc
+  order: asc
 design:
   # Choose a view for the listings:
-  view: community/citation_modified
+  view: community/list_event_modified
   columns: '2'
-  # Choose a view for the listings:
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   4 = Citation (publication only)
 ---
-
-<!-- {{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}} -->

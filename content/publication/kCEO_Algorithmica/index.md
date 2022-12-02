@@ -42,9 +42,9 @@ tags: [Parameterized Complexity]
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2007.06060
 
 # external_link: 'http://www.math.uwaterloo.ca/~rneogi/publication/kceo_algorithmica/kCEO_Algorithmica.pdf'
 url_pdf: 'http://www.math.uwaterloo.ca/~rneogi/publication/kceo_algorithmica/kCEO_Algorithmica.pdf'

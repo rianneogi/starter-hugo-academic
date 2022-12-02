@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Rian Neogi
+title: Combitorial Optimization Reading Group
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: PhD Student
+# role: PhD Student
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: Combinatorics and Optimization, University of Waterloo
-    url: https://uwaterloo.ca/combinatorics-and-optimization/
+# organizations:
+#   - name: Combinatorics and Optimization, University of Waterloo
+#     url: https://uwaterloo.ca/combinatorics-and-optimization/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests lie broadly in combinatorial optimization.
@@ -40,19 +40,23 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: '/#contact'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: ai
+  - icon: youtube
+    icon_pack: fab
     size: large
-    link: https://scholar.google.co.uk/citations?user=AlOpkuIAAAAJ&hl=en&oi=ao
-  - icon: dblp
-    icon_pack: ai
-    link: https://dblp.org/pid/194/3958.html
+    link: 'https://www.youtube.com/@comboptreadinggroup1704'
+  # - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+  #   icon_pack: ai
+  #   size: large
+  #   link: https://scholar.google.co.uk/citations?user=AlOpkuIAAAAJ&hl=en&oi=ao
+  # - icon: dblp
+  #   icon_pack: ai
+  #   link: https://dblp.org/pid/194/3958.html
   # - icon: github
   #   icon_pack: fab
   #   link: https://github.com/gcushen
@@ -74,11 +78,17 @@ email: ''
 highlight_name: false
 ---
 
-I am a PhD student in the Combinatorics and Optimization department at the University of Waterloo. I am privileged to be working under the supervision of [Kanstantsin Pashkovich](https://kanstantsinpashkovich.bitbucket.io) and [Chaitanya Swamy](http://www.math.uwaterloo.ca/~cswamy/). My interests lie broadly in the area of combinatorial optimization.
-<br><br>
-You can contact me at \<first-name\>(dot)\<last-name\>@uwaterloo.ca
-<br><br>
-Together with David Aleman and Nathan Benedetto, I organise the Combinatorial Optimization Reading Group at University of Waterloo.
+The purpose of our reading group is for students to learn new things, gain practice presenting research to their peers, and possibly pick up a research question or two in the process.
+
+Each semester we cover a new topic in combinatorial optimization.
+
+**When:** Fridays at 12 pm
+
+**Where:** MC 6029 or [Zoom](https://www.google.com/url?q=https://us02web.zoom.us/j/89397786681?pwd%3DejJQNXBHSS83K0tvMGtqalJqQXFlUT09&sa=D&usd=2&usg=AOvVaw143mbxIM_oEZXf9bqeGXrQ) (Meeting Id: 893 9778 6681, Password: 927390) 
+
+To stay up to date please subscribe to our [mailing list](https://lists.uwaterloo.ca/mailman/listinfo/comboptreading). Please do not hesitate to contact Rian Neogi, David Aleman or Nathan Benedetto if you have any questions or suggestions.
+
+**We have a Youtube Channel:** Head over to our [channel](https://www.youtube.com/channel/UCC12srd6zvCO5R5nymWbKYg) to see recordings of previous talks.
 
 <!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
